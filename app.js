@@ -15,3 +15,12 @@
 
  console.log(personFirstname);
  console.log(personAge);
+
+ //arrays in objects
+ 
+ const dA=[
+    ["orange","purple"],
+    ["rice","beans",["magi","salt"]]
+]
+
+console.log([1][2][1]);
