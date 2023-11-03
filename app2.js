@@ -19,3 +19,7 @@ js.prototype.getFullname=function(){
     console.log(wycliffe);
 }
 const wycliffe=new js("wycliffe","musango","willy",23,"musangowilly@gmail.com");
+
+const lewis=new js("lewis","machabe",37,"lewis@gmail.com");
+
+const jsArr=[sharon,lewis]
