@@ -12,3 +12,7 @@ Number('20')
  function fetchData(call){
     setTimeout(function(){call("data fetched")},5000)
  }
+
+ fetchData(function(data){
+    console.log(data);
+ })
