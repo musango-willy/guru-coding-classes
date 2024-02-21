@@ -16,3 +16,9 @@ Number('20')
  fetchData(function(data){
     console.log(data);
  })
+
+ //promise
+
+ function fetchData(){
+   return new Promise(function(resolve,reject)
+ }
