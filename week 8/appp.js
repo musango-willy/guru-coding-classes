@@ -21,4 +21,8 @@ Number('20')
 
  function fetchData(){
    return new Promise(function(resolve,reject)
+   setTimeout(function(){
+      resolve("promise was meet,data has been fetched")
+   },3000)
+
  }
