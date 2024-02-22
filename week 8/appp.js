@@ -9,9 +9,9 @@ const person = new obj("sharon",25,"sharon@gmail.com");
 
 Number('20')
 
- function fetchData(call){
-    setTimeout(function(){call("data fetched")},5000)
- }
+ //function fetchData(call){
+    //setTimeout(function(){call("data fetched")},5000)
+ //}
 
  fetchData(function(data){
     console.log(data);
@@ -25,4 +25,10 @@ Number('20')
       resolve("promise was meet,data has been fetched")
    },3000)
 
- }
+}
+
+fetchData().then(function(){
+   console.log(result)
+}).catch(function(error){
+   console.log(error)
+})
