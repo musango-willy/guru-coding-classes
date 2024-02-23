@@ -36,3 +36,11 @@ fetchData().then(function(){
 //fetching data from website
 
 fetch('https://dummy json.com/products/1').then(function(response))
+
+//other
+
+fetch('https://dummy json.com/products/1')
+.then(res=>res.json())
+.then(json =>console.log(json))
+
+//end of javascript classes
