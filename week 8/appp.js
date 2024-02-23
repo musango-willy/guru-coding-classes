@@ -32,3 +32,7 @@ fetchData().then(function(){
 }).catch(function(error){
    console.log(error)
 })
+
+//fetching data from website
+
+fetch('https://dummy json.com/products/1').then(function(response))
